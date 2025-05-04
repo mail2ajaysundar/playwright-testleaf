@@ -19,7 +19,7 @@ function login(userName){
 
 function ValidateUser(user,LoginInfo){
     
-    LoginInfo(user).then((result) => {
+    LoginInfo(user).then((result) => { //similar to try catch 
         console.log(result)
     }).catch((err)=>{
         console.log(err)

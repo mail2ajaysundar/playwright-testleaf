@@ -6,4 +6,6 @@ function browserLaunch(callback){
 function logindata(callback){
     console.log('Enter the username')
     console.log('Enter the password')
+    callback()
 }
+

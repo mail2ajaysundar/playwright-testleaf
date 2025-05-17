@@ -46,7 +46,7 @@ export default defineConfig({
         launchOptions:        
         {
           // slowMo: 300,
-          args:['--start-maximized']
+          args:['--start-maximized','--disable-notifications']
         }
       },
     },

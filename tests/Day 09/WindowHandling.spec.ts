@@ -69,12 +69,12 @@ test.only('Classroom Assignment',async({context,page})=>{
         await page.goto("https://leafground.com/window.xhtml")
         
          //create promise -> Event Listener 
-        const newpromise = context.waitForEvent('page')
+        const newtab = context.waitForEvent('page')
         
         page.locator("//*[text()='Open']").click()
 
         //resolve the promise - open in new tab
-    const childtab = await newpromise
+    const childtab = await newtab
 
     await page.waitForTimeout(3000)
 

@@ -12,6 +12,7 @@
     "@types/node": "^22.14.1"
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
     "playwright": "^1.52.0"
   }
 }

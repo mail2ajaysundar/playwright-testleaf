@@ -12,6 +12,7 @@
     "@types/node": "^22.14.1"
   },
   "dependencies": {
+    "@faker-js/faker": "^9.8.0",
     "fs": "^0.0.1-security",
     "playwright": "^1.52.0"
   }
